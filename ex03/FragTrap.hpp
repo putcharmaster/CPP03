@@ -6,7 +6,7 @@
 /*   By: sanhwang <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/03/26 19:34:02 by sanhwang          #+#    #+#             */
-/*   Updated: 2025/03/26 20:02:56 by sanhwang         ###   ########.fr       */
+/*   Updated: 2025/04/06 02:34:14 by sanhwang         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -15,7 +15,7 @@
 
 #include "ClapTrap.hpp"
 
-class FragTrap : public ClapTrap {
+class FragTrap : virtual public ClapTrap {
     public:
         FragTrap();
         FragTrap(const std::string &name);

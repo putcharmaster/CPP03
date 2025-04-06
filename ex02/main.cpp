@@ -6,7 +6,7 @@
 /*   By: sanhwang <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/03/26 20:14:24 by sanhwang          #+#    #+#             */
-/*   Updated: 2025/03/27 00:40:51 by sanhwang         ###   ########.fr       */
+/*   Updated: 2025/04/06 02:17:23 by sanhwang         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -30,6 +30,8 @@ int main(){
     std::cout << std::endl; */
 
     frag.attack("magali");
+    std::cout << std::endl;
+
     frag.highFivesGuys();
     std::cout << std::endl;
     

@@ -6,7 +6,7 @@
 /*   By: sanhwang <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/03/27 01:31:59 by sanhwang          #+#    #+#             */
-/*   Updated: 2025/03/27 01:42:04 by sanhwang         ###   ########.fr       */
+/*   Updated: 2025/04/06 02:45:22 by sanhwang         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -19,7 +19,7 @@ int main(){
     dia.whoAmI();
     std::cout << std::endl;
 
-    dia.ScavTrap::attack("musk");
+    dia.FragTrap::attack("musk");
     std::cout << std::endl;
 
     dia.highFivesGuys();
