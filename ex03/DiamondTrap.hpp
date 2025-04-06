@@ -6,7 +6,7 @@
 /*   By: sanhwang <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/03/27 01:03:58 by sanhwang          #+#    #+#             */
-/*   Updated: 2025/04/06 03:01:42 by sanhwang         ###   ########.fr       */
+/*   Updated: 2025/04/06 20:00:56 by sanhwang         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -18,7 +18,7 @@
 
 class DiamondTrap : public FragTrap, public ScavTrap {
     private:
-        std::string name;  //this will cause shadowing compiler issue
+        std::string name;  //this will cause shadowing compiler issue with -Wshadow
     
     public:
         DiamondTrap();
