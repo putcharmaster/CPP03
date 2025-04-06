@@ -6,7 +6,7 @@
 /*   By: sanhwang <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/03/27 01:03:58 by sanhwang          #+#    #+#             */
-/*   Updated: 2025/04/06 02:35:13 by sanhwang         ###   ########.fr       */
+/*   Updated: 2025/04/06 03:01:42 by sanhwang         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -29,6 +29,8 @@ class DiamondTrap : public FragTrap, public ScavTrap {
 
         using ScavTrap::attack;
         void    whoAmI();
+
+        void    showStats();
 };
 
 #endif

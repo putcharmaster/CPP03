@@ -6,7 +6,7 @@
 /*   By: sanhwang <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/03/27 01:10:56 by sanhwang          #+#    #+#             */
-/*   Updated: 2025/04/06 02:36:21 by sanhwang         ###   ########.fr       */
+/*   Updated: 2025/04/06 03:05:36 by sanhwang         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -54,4 +54,11 @@ DiamondTrap::~DiamondTrap() {
 void DiamondTrap::whoAmI() {
     std::cout << "DiamondTrap name is \"" << name
               << "\", ClapTrap name is \"" << ClapTrap::name << "\"" << std::endl;
+}
+
+void DiamondTrap::showStats() {
+    std::cout << "DiamondTrap " << name << " Stats: " << std::endl;
+    std::cout << "Hit points: " << this->hitPoint << " (FragTrap)" << std::endl;
+    std::cout << "Energy points: " << this->energyPoint << " (ScavTrap)"  << std::endl;
+    std::cout << "Attack damage: " << this->attackDamage << " (FragTrap)" << std::endl;
 }
